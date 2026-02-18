@@ -60,12 +60,12 @@ export default function CTA() {
               href={EMAIL_HREF}
               style={{
                 padding: "18px 52px",
-                border: "1px solid rgba(255,255,255,0.2)", color: "rgba(255,255,255,0.6)",
+                background: "var(--gold)", color: "#fff",
                 textDecoration: "none", fontSize: 11, letterSpacing: 3,
-                textTransform: "uppercase", fontWeight: 400, transition: "all 0.3s",
+                textTransform: "uppercase", fontWeight: 500, transition: "all 0.3s",
               }}
-              onMouseEnter={(e) => { e.target.style.borderColor = "var(--gold)"; e.target.style.color = "var(--gold)"; }}
-              onMouseLeave={(e) => { e.target.style.borderColor = "rgba(255,255,255,0.2)"; e.target.style.color = "rgba(255,255,255,0.6)"; }}
+              onMouseEnter={(e) => (e.target.style.background = "var(--gold-light)")}
+              onMouseLeave={(e) => (e.target.style.background = "var(--gold)")}
             >
               Send a Message
             </a>
