@@ -1,10 +1,10 @@
 import { FadeIn, GoldAccent } from "./utils";
 
 // ── Update these with real contact details ────────────────────────────────────
-const PHONE        = "(604) 123-4567";
-const PHONE_HREF   = "tel:+16041234567";
-const EMAIL        = "mitch@renosbymitch.ca";
-const EMAIL_HREF   = "mailto:mitch@renosbymitch.ca";
+const PHONE        = "";
+const PHONE_HREF   = "tel:+1";
+const EMAIL        = "info@renosbymitch.ca";
+const EMAIL_HREF   = "mailto:info@renosbymitch.ca";
 const LOCATION     = "North Vancouver, BC";
 // ─────────────────────────────────────────────────────────────────────────────
 
