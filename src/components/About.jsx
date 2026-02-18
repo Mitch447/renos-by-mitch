@@ -22,12 +22,12 @@ export default function About() {
             }}>
               {/*
                 TODO: Replace this placeholder with a real photo of Mitch.
-                <img src="/images/mitch.jpg" alt="Mitch Sullivan" style={{ position: "absolute", inset: 0, width: "100%", height: "100%", objectFit: "cover" }} />
+                <img src="/images/mitch.jpg" alt="Mitch Baniulis" style={{ position: "absolute", inset: 0, width: "100%", height: "100%", objectFit: "cover" }} />
               */}
               <div style={{ position: "absolute", inset: 0, display: "flex", flexDirection: "column", alignItems: "center", justifyContent: "center" }}>
                 <div className="display" style={{ fontSize: 100, color: "rgba(184,147,90,0.15)", fontWeight: 300 }}>M</div>
                 <div style={{ color: "rgba(255,255,255,0.2)", fontSize: 10, letterSpacing: 4, textTransform: "uppercase", marginTop: 8 }}>
-                  Mitch Sullivan
+                  Mitch Baniulis
                 </div>
               </div>
             </div>
@@ -56,7 +56,7 @@ export default function About() {
               Meet <em style={{ fontStyle: "italic", color: "var(--gold)" }}>Mitch</em>
             </h2>
             <p style={{ fontSize: 15, lineHeight: 1.9, color: "var(--muted)", fontWeight: 300, marginBottom: 24 }}>
-              Mitch Sullivan has been transforming homes in North and West Vancouver for over twenty years.
+              Mitch Baniulis has been transforming homes in North and West Vancouver for over twenty years.
               What started as a passion for craftsmanship became a commitment: to run the kind of
               renovation company he wished had existed when he renovated his own first home.
             </p>
