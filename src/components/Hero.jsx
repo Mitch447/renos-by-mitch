@@ -50,7 +50,7 @@ export default function Hero() {
           lineHeight: 1, userSelect: "none", letterSpacing: -8,
         }}
       >
-        2005
+        2010
       </div>
 
       {/* Content */}
@@ -69,7 +69,7 @@ export default function Hero() {
             fontSize: 11, letterSpacing: 4, textTransform: "uppercase",
             color: "var(--gold)", fontWeight: 400,
           }}>
-            North Vancouver · Since 2005
+            North Vancouver · Since 2010
           </span>
         </motion.div>
 

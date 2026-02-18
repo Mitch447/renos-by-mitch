@@ -83,7 +83,7 @@ export default function Solution() {
             </div>
             {/* Gold offset label */}
             <div style={{ position: "absolute", bottom: -20, left: -20, background: "var(--gold)", padding: "16px 28px" }}>
-              <div style={{ fontSize: 10, letterSpacing: 3, textTransform: "uppercase", color: "#fff" }}>Est. 2005</div>
+              <div style={{ fontSize: 10, letterSpacing: 3, textTransform: "uppercase", color: "#fff" }}>Est. 2010</div>
             </div>
           </div>
         </FadeIn>

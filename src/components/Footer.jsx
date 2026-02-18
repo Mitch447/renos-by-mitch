@@ -34,7 +34,7 @@ export default function Footer() {
           </div>
           <p style={{ fontSize: 12, lineHeight: 1.8, color: "rgba(255,255,255,0.3)", fontWeight: 300, maxWidth: 280 }}>
             Residential renovations in North and West Vancouver,
-            crafted with precision and pride since 2005.
+            crafted with precision and pride since 2010.
           </p>
         </div>
 
