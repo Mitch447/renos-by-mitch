@@ -9,7 +9,6 @@ const LOCATION     = "North Vancouver, BC";
 // ─────────────────────────────────────────────────────────────────────────────
 
 const CONTACT_DETAILS = [
-  { icon: "📞", text: PHONE,    href: PHONE_HREF  },
   { icon: "✉",  text: EMAIL,   href: EMAIL_HREF  },
   { icon: "📍", text: LOCATION, href: null        },
 ];
