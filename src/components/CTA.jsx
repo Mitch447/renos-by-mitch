@@ -56,7 +56,7 @@ export default function CTA() {
 
           {/* Primary CTAs */}
           <div style={{ display: "flex", gap: 24, flexWrap: "wrap", marginBottom: 60 }}>
-            
+            <a
               href={EMAIL_HREF}
               style={{
                 padding: "18px 52px",
