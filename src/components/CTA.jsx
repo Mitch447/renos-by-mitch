@@ -56,20 +56,7 @@ export default function CTA() {
 
           {/* Primary CTAs */}
           <div style={{ display: "flex", gap: 24, flexWrap: "wrap", marginBottom: 60 }}>
-            <a
-              href={PHONE_HREF}
-              style={{
-                padding: "18px 52px",
-                background: "var(--gold)", color: "#fff",
-                textDecoration: "none", fontSize: 11, letterSpacing: 3,
-                textTransform: "uppercase", fontWeight: 500, transition: "all 0.3s",
-              }}
-              onMouseEnter={(e) => (e.target.style.background = "var(--gold-light)")}
-              onMouseLeave={(e) => (e.target.style.background = "var(--gold)")}
-            >
-              Call Mitch Directly
-            </a>
-            <a
+            
               href={EMAIL_HREF}
               style={{
                 padding: "18px 52px",
