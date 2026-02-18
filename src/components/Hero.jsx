@@ -2,8 +2,8 @@ import { useRef } from "react";
 import { motion, useScroll, useTransform } from "framer-motion";
 
 const STATS = [
-  ["200+", "Homes Completed"],
-  ["98%",  "Client Satisfaction"],
+  [],
+  [],
   ["20yr", "Experience"],
 ];
 
