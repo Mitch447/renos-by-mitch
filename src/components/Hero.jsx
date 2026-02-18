@@ -137,7 +137,7 @@ export default function Hero() {
               onMouseEnter={(e) => (e.currentTarget.style.color = "var(--gold)")}
               onMouseLeave={(e) => (e.currentTarget.style.color = "rgba(255,255,255,0.5)")}
             >
-              See Our Work
+              See how we work
               <svg width="32" height="1" viewBox="0 0 32 1">
                 <line x1="0" y1="0.5" x2="32" y2="0.5" stroke="currentColor" strokeWidth="1" />
               </svg>
