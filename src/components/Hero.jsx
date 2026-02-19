@@ -24,20 +24,26 @@ export default function Hero() {
     >
       {/* Parallax background */}
       <motion.div style={{ position: "absolute", inset: 0, y }}>
-        {/* Architectural grid */}
-        <div style={{
-          position: "absolute", inset: 0,
-          backgroundImage: `
-            linear-gradient(rgba(184,147,90,0.06) 1px, transparent 1px),
-            linear-gradient(90deg, rgba(184,147,90,0.06) 1px, transparent 1px)
-          `,
-          backgroundSize: "80px 80px",
-        }} />
-        {/* Warm radial glow */}
-        <div style={{
-          position: "absolute", inset: 0,
-          background: "radial-gradient(ellipse at 30% 50%, rgba(184,147,90,0.12) 0%, transparent 60%)",
-        }} />
+        {/* Background photo */}
+<img
+  src="/iStock-1034604148.jpg"
+  alt="North Vancouver"
+  style={{
+    position: "absolute", inset: 0,
+    width: "100%", height: "100%",
+    objectFit: "cover", objectPosition: "center",
+  }}
+/>
+{/* Dark overlay so text remains readable */}
+<div style={{
+  position: "absolute", inset: 0,
+  background: "linear-gradient(to right, rgba(28,28,28,0.85) 0%, rgba(28,28,28,0.5) 60%, rgba(28,28,28,0.3) 100%)",
+}} />
+{/* Warm radial glow */}
+<div style={{
+  position: "absolute", inset: 0,
+  background: "radial-gradient(ellipse at 30% 50%, rgba(184,147,90,0.12) 0%, transparent 60%)",
+}} />
       </motion.div>
 
       {/* Large decorative year */}
