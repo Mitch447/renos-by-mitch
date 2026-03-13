@@ -92,9 +92,8 @@ export default function Hero() {
               color: "#fff", letterSpacing: -2, marginBottom: 32,
             }}
           >
-            Your Home,<br />
-            <em style={{ color: "var(--gold-light)", fontStyle: "italic" }}>Transformed</em><br />
-            <span style={{ fontSize: "0.75em" }}>With Intention</span>
+             Kitchens. Bathrooms.<br />
+            <em style={{ color: "var(--gold-light)", fontStyle: "italic" }}>And the Details.</em>
           </motion.h1>
 
           {/* Subheadline */}
@@ -108,8 +107,7 @@ export default function Hero() {
               fontWeight: 300, marginBottom: 52,
             }}
           >
-            Residential renovations crafted for those who understand that the spaces we inhabit
-            shape the lives we lead. Precision craftsmanship, honest timelines, exceptional results.
+            I take on a small number of projects at a time so I can give each one the attention it deserves. My goal is simple — do great work and make the whole experience as enjoyable as possible.
           </motion.p>
 
           {/* CTAs */}
