@@ -33,14 +33,13 @@ export default function Pain() {
           <div style={{ flex: "0 0 auto", maxWidth: 400 }}>
             <GoldAccent />
             <h2 className="display" style={{ fontSize: "clamp(36px, 5vw, 64px)", fontWeight: 300, lineHeight: 1.1, color: "var(--charcoal)" }}>
-              Sound<br />
-              <em style={{ color: "var(--stone)", fontStyle: "italic" }}>familiar?</em>
+              How I Like<br />
+              <em style={{ color: "var(--stone)", fontStyle: "italic" }}>to work</em>
             </h2>
           </div>
           <div style={{ flex: 1, minWidth: 280, paddingTop: 8 }}>
             <p style={{ fontSize: 16, lineHeight: 1.9, color: "var(--muted)", fontWeight: 300, maxWidth: 480 }}>
-              For homeowners in their prime years — when your home should be a sanctuary, not a source
-              of stress — a bad renovation experience is more than an inconvenience. It's a breach of trust.
+              I started Renos By Mitch because I wanted to build something where the client experience mattered as much as the finished product. For me that means staying small, staying hands-on, and caring about every detail — not just the ones that are easy to see.
             </p>
           </div>
         </div>
