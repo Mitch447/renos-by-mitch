@@ -4,7 +4,7 @@ import { motion, useScroll, useTransform } from "framer-motion";
 const STATS = [
   [],
   [],
-  ["20yr", "Experience"],
+  ["15+", "Years Experience"],
 ];
 
 export default function Hero() {
