@@ -55,15 +55,14 @@ export default function About() {
             <h2 className="display" style={{ fontSize: "clamp(32px, 4vw, 54px)", fontWeight: 300, lineHeight: 1.1, color: "var(--charcoal)", marginBottom: 32 }}>
               Meet <em style={{ fontStyle: "italic", color: "var(--gold)" }}>Mitch</em>
             </h2>
+           <p style={{ fontSize: 15, lineHeight: 1.9, color: "var(--muted)", fontWeight: 300, marginBottom: 24 }}>
+              Mitch Baniulis has been working in renovation and construction in North Vancouver for over 15 years. Renos By Mitch grew out of a simple idea — that doing fewer projects and doing them really well was more rewarding than doing a lot of them.
+            </p>
             <p style={{ fontSize: 15, lineHeight: 1.9, color: "var(--muted)", fontWeight: 300, marginBottom: 24 }}>
-              Mitch Baniulis has been transforming homes in North and West Vancouver for over twenty years.
-              What started as a passion for craftsmanship became a commitment: to run the kind of
-              renovation company he wished had existed when he renovated his own first home.
+              Most of my work is kitchens and bathrooms — that's where my experience runs deepest and where I genuinely love the process. I'm also open to custom work and detail-oriented projects where that same care and craftsmanship applies.
             </p>
             <p style={{ fontSize: 15, lineHeight: 1.9, color: "var(--muted)", fontWeight: 300, marginBottom: 40 }}>
-              Every project Mitch takes on, he manages personally. He believes that your home is your most
-              significant investment — and that it deserves the full weight of his experience, his network,
-              and his name behind every decision made.
+              A renovation is a big deal. It's your home, your money, and a real disruption to your daily life. I take that seriously. My goal isn't just a beautiful finished space — it's that you look back on the whole experience and feel good about it.
             </p>
 
             {/* Credentials list */}
