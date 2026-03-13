@@ -1,10 +1,7 @@
 import { FadeIn, GoldAccent } from "./utils";
 
 const CREDENTIALS = [
-  "Red Seal Certified Carpenter",
-  "Member, Greater Vancouver Home Builders' Association",
-  "Licensed & Fully Insured in British Columbia",
-  "Over 200 residential projects completed",
+ 
 ];
 
 export default function About() {
@@ -64,7 +61,12 @@ export default function About() {
             <p style={{ fontSize: 15, lineHeight: 1.9, color: "var(--muted)", fontWeight: 300, marginBottom: 40 }}>
               A renovation is a big deal. It's your home, your money, and a real disruption to your daily life. I take that seriously. My goal isn't just a beautiful finished space — it's that you look back on the whole experience and feel good about it.
             </p>
-
+<div style={{ display: "flex", flexDirection: "column", gap: 16 }}>
+              {["Licensed General Contractor — British Columbia","Fully insured, WorkSafeBC compliant","Based in North Vancouver since 2026","Kitchens, bathrooms & custom detail work"].map(c => (
+                <div key={c} style={{ display: "flex", alignItems: "center", gap: 16 }}>
+                  <div style={{ width: 20, height: 1, background: "var(--gold)", flexShrink: 0 }} />
+                  <span style={{ fontSize: 13, color: "var(--graphite)", fontWeight: 300 }}>{c}</span>
+                </div>
             {/* Credentials list */}
             <div style={{ display: "flex", flexDirection: "column", gap: 16 }}>
               {CREDENTIALS.map((c) => (
