@@ -67,13 +67,7 @@ export default function About() {
                   <div style={{ width: 20, height: 1, background: "var(--gold)", flexShrink: 0 }} />
                   <span style={{ fontSize: 13, color: "var(--graphite)", fontWeight: 300 }}>{c}</span>
                 </div>
-            {/* Credentials list */}
-            <div style={{ display: "flex", flexDirection: "column", gap: 16 }}>
-              {CREDENTIALS.map((c) => (
-                <div key={c} style={{ display: "flex", alignItems: "center", gap: 16 }}>
-                  <div style={{ width: 20, height: 1, background: "var(--gold)", flexShrink: 0 }} />
-                  <span style={{ fontSize: 13, color: "var(--graphite)", fontWeight: 300 }}>{c}</span>
-                </div>
+            
               ))}
             </div>
           </div>
