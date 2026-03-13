@@ -3,23 +3,23 @@ import { FadeIn, GoldLine, GoldAccent } from "./utils";
 const PAINS = [
   {
     num: "01",
-    title: "Contractors Who Disappear",
-    body: "You've heard the stories — or lived them. Work stalls halfway through, calls go unanswered, and your home sits open and unfinished for months. You deserve a professional who shows up.",
+    title: "I Care",
+    body: "I'm on your job every day. You'll have my direct number and I'll keep you in the loop as things progress. No chasing, no wondering where things are at.",
   },
   {
     num: "02",
-    title: "Budgets That Balloon",
-    body: "What started as a reasonable quote somehow doubles by completion. Hidden costs, change-order surprises, and vague scopes leave you feeling taken advantage of in your own home.",
+    title: "A Personal Experience",
+    body: "Renovations can be stressful — I get it, I've been on both sides of it. I work hard to keep things calm, clear, and enjoyable. You should feel good about the result and the process.",
   },
   {
     num: "03",
-    title: "Quality That Doesn't Last",
-    body: "The tile grout cracks. The cabinetry warps. The paint peels. After investing in a renovation, the last thing you want is to do it over again in five years.",
+    title: "Kitchens & Bathrooms at Heart",
+    body: "Most of my work is kitchens and bathrooms — that's where my experience runs deepest. I'm also open to the right custom project, so if you have something in mind, it's worth a conversation.",
   },
   {
     num: "04",
-    title: "The Chaos and Disruption",
-    body: "A renovation should feel exciting, not like a siege. Without the right team, your home becomes a construction zone that intrudes on every corner of your daily life — for far too long.",
+    title: "Straight Shooting",
+    body: "I'll give you an honest estimate, a realistic timeline, and a straight answer to every question. If something changes, I'll tell you upfront — what it means, what it costs, and why.",
   },
 ];
 
